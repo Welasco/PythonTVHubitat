@@ -1,0 +1,256 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "television",
+            "modelConfiguration": {
+                "fallbackIntentSensitivity": {
+                    "level": "LOW"
+                }
+            },
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "skip",
+                    "slots": [],
+                    "samples": [
+                        "skip"
+                    ]
+                },                
+                {
+                    "name": "mute",
+                    "slots": [],
+                    "samples": [
+                        "unmute",
+                        "mute"
+                    ]
+                },
+                {
+                    "name": "volumeupby",
+                    "slots": [
+                        {
+                            "name": "number",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "increase volume by {number}"
+                    ]
+                },
+                {
+                    "name": "volumedownby",
+                    "slots": [
+                        {
+                            "name": "number",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "decrease volume by {number}"
+                    ]
+                },
+                {
+                    "name": "volumedown",
+                    "slots": [],
+                    "samples": [
+                        "volume down"
+                    ]
+                },
+                {
+                    "name": "volumeup",
+                    "slots": [],
+                    "samples": [
+                        "volume up"
+                    ]
+                },
+                {
+                    "name": "channelincreaseby",
+                    "slots": [
+                        {
+                            "name": "number",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "increase channel by {number}"
+                    ]
+                },
+                {
+                    "name": "channeldecreaseby",
+                    "slots": [
+                        {
+                            "name": "number",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "decrease channel by {number}"
+                    ]
+                },
+                {
+                    "name": "channelup",
+                    "slots": [],
+                    "samples": [
+                        "channel up"
+                    ]
+                },
+                {
+                    "name": "channeldown",
+                    "slots": [],
+                    "samples": [
+                        "channel down"
+                    ]
+                },
+                {
+                    "name": "power",
+                    "slots": [],
+                    "samples": [
+                        "off",
+                        "on",
+                        "power off",
+                        "power on",
+                        "shutdown",
+                        "power down",
+                        "turn off",
+                        "turn on"
+                    ]
+                },
+                {
+                    "name": "channelto",
+                    "slots": [
+                        {
+                            "name": "number",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "change {number}"
+                    ]
+                },
+                {
+                    "name": "pressbutton",
+                    "slots": [
+                        {
+                            "name": "button",
+                            "type": "button"
+                        }
+                    ],
+                    "samples": [
+                        "press {button}"
+                    ]
+                },
+                {
+                    "name": "play",
+                    "slots": [],
+                    "samples": [
+                        "resume",
+                        "continue",
+                        "play"
+                    ]
+                },
+                {
+                    "name": "pause",
+                    "slots": [],
+                    "samples": [
+                        "pause"
+                    ]
+                },
+                {
+                    "name": "stop",
+                    "slots": [],
+                    "samples": [
+                        "stop"
+                    ]
+                },
+                {
+                    "name": "exit",
+                    "slots": [],
+                    "samples": [
+                        "quit",
+                        "exit"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "button",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "OK"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Power"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Left"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Right"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Down"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "UP"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Stop"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Exit"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Return"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Pause"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Play"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

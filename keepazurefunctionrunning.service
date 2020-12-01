@@ -1,0 +1,15 @@
+[Unit]
+Description=Keep Azure Function Running for consumption plan
+After=network.target
+
+[Service]
+ExecStart=/home/pi/PythonTV/keepazurefunctionrunning.py
+Restart=always
+User=pi
+Group=pi
+Environment=PATH=/usr/bin:/usr/local/bin
+Environment=
+WorkingDirectory=/home/pi/PythonTV
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,29 @@
+{
+  "name": "nodejssimpleaapp",
+  "version": "0.0.1",
+  "description": "NodeJSSimpleApp",
+  "license": "UNLICENSED",
+  "main": "alexa.js",
+  "author": {
+    "name": "Victor Santana"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Welasco/NodeJSSimpleApp.git"
+  },
+  "scripts": {
+    "start": "node alexa.js"
+  },
+  "dependencies": {
+    "alexa-verifier": "^2.0.1",
+    "alexa-verifier-middleware": "^1.0.1",
+    "body-parser": "1.18.2",
+    "ejs": "2.6.1",
+    "express": "^4.16.3",
+    "fs": "0.0.0",
+    "http": "0.0.0",
+    "nconf": "0.10.0",
+    "node-netstat": "1.4.2",
+    "os": "0.1.1"
+  }
+}

@@ -1,0 +1,151 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "television",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "mute",
+                    "slots": [],
+                    "samples": [
+                        "unmute",
+                        "mute"
+                    ]
+                },
+                {
+                    "name": "channelup",
+                    "slots": [],
+                    "samples": [
+                        "change channel up",
+                        "channel up"
+                    ]
+                },
+                {
+                    "name": "channeldown",
+                    "slots": [],
+                    "samples": [
+                        "change channel down",
+                        "channel down"
+                    ]
+                },                
+                {
+                    "name": "channelincreaseby",
+                    "slots": [
+                        {
+                            "name": "number",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "increase channel by {number}"
+                    ]
+                },   
+                {
+                    "name": "channeldecreaseby",
+                    "slots": [
+                        {
+                            "name": "number",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "decrease channel by {number}"
+                    ]
+                },                   
+                {
+                    "name": "channelto",
+                    "slots": [
+                        {
+                            "name": "number",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "switch to channel {number}",
+                        "switch to channel number {number}"
+                    ]
+                },   
+                {
+                    "name": "volumeupby",
+                    "slots": [
+                        {
+                            "name": "number",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "increase volume by {number}"
+                    ]
+                },                                           
+                {
+                    "name": "volumedownby",
+                    "slots": [
+                        {
+                            "name": "number",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "decrease volume by {number}"
+                    ]
+                },
+                {
+                    "name": "volumedown",
+                    "slots": [],
+                    "samples": [
+                        "volume down",
+                        "to volume down",
+                        "put volume down"
+                    ]
+                },      
+                {
+                    "name": "volumeup",
+                    "slots": [],
+                    "samples": [
+                        "volume up",
+                        "to volume up"
+                    ]
+                },                           
+                {
+                    "name": "power",
+                    "slots": [],
+                    "samples": [
+                        "off",
+                        "on",
+                        "power off",
+                        "power",
+                        "power on",
+                        "shutdown",
+                        "turn on",
+                        "turn off",
+                        "to power off",
+                        "to power on",
+                        "to shutdown",
+                        "to turn on",
+                        "to turn off"                        
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}

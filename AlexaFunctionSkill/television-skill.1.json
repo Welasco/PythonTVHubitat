@@ -1,0 +1,103 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "television",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "mute",
+                    "slots": [],
+                    "samples": [
+                        "unmute",
+                        "mute"
+                    ]
+                },
+                {
+                    "name": "channel",
+                    "slots": [
+                        {
+                            "name": "number",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "change to {number}",
+                        "change channel up",
+                        "change channel down",
+                        "increase channel by {number}",
+                        "decrease channel by {number}",
+                        "decrease the channel by {number}",
+                        "increase the channel by {number}",
+                        "change channel to {number}",
+                        "channel down",
+                        "channel up"
+                    ]
+                },
+                {
+                    "name": "volume",
+                    "slots": [
+                        {
+                            "name": "number",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "volume down to {number}",
+                        "volume up to {number}",
+                        "decrease volume to {number}",
+                        "increase volume to {number}",
+                        "increase volume by {number}",
+                        "decrease volume by {number}",
+                        "volume down by {number}",
+                        "decrease the volume by {number}",
+                        "increase the volume by {number}",
+                        "volume up by {number}",
+                        "volume down",
+                        "volume up"
+                    ]
+                },
+                {
+                    "name": "power",
+                    "slots": [],
+                    "samples": [
+                        "off",
+                        "on",
+                        "power off",
+                        "power",
+                        "power on",
+                        "shutdown",
+                        "turn on",
+                        "turn off"
+                    ]
+                },
+                {
+                    "name": "GeneralGreeting",
+                    "slots": [],
+                    "samples": [
+                        "hello"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}

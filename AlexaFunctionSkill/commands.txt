@@ -1,0 +1,28 @@
+
+Ask Television mute
+Ask Television increase volume by 4
+Ask Television change 5
+
+Mute
+"unmute"
+"mute"
+Volume
+"increase volume by {number}"
+"decrease volume by {number}"
+"volume down"
+"volume up"
+Channel
+"increase channel by {number}"
+"decrease channel by {number}"
+"channel up"
+"channel down"
+"change {number}"
+Power
+"off"
+"on"
+"power off"
+"power on"
+"shutdown"
+"power down"
+"turn off"
+"turn on"
